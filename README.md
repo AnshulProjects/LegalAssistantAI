@@ -5,8 +5,7 @@ This application is meant for the genreal poluation to unddrstand these laws and
 land them in jail for long periods of time. For any advice, please cross reference with a lawyer.
 
 ## How it works
-
-![LEGALHELPAI](LEGALHELPAI.png)
+![LEGALHELPAI Image](LEGALHELPAI.png)
 
 PDF's containing laws are stored in a folder named Reference_Documents and are then transfered to embedchain to be stored in the framework. I also gave the OpenAI API key to embedchain for the use of the large language model. embedchain is a RAG(retrival-augmented generation)framework allowing users be able to use external information with use of a LLM.
 
