@@ -30,7 +30,7 @@ User Interface
 '''
 with gr.Blocks() as demo:
     user_bot = gr.Chatbot()
-    user_input = gr.Textbox()
+    user_input = gr.Textbox(label = "Question")
     disclaimer = "Please consult a lawyer for impending legal actions.Do not use this to defend yourself in the court of law"
    
 
