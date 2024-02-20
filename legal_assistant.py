@@ -1,11 +1,10 @@
 import os
 import openai
-from PyPDF2 import PdfReader 
 import gradio as gr
-import pandas as pd
+
 from embedchain import App
 from embedchain.config import AddConfig
-import random
+
 import time
 
 
